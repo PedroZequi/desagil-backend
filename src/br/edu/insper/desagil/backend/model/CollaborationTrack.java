@@ -14,9 +14,9 @@ public class CollaborationTrack extends Track {
 	public Artist getFullArtistName() {
 		int n = collaborators.size();
 		if (n==1) {
-			Artist artist;
+			String artist = this.name;
 			Artist collab = collaborators.get(0);
-			return Artist artist + "(feat. " + collab +")"; 
+			return  + "(feat. " + collab +")"; 
 		}
 		else if (n>2) {
 			for (int i=0; i < n; i++) {

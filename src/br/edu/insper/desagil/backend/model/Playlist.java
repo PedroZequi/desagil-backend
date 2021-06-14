@@ -34,7 +34,7 @@ public class Playlist {
 		double media = 0;
 		int soma = 0;
 		int n = this.ratings.size();
-		for 
+		for ()
 		
 	}
 	
